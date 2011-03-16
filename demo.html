@@ -1,0 +1,93 @@
+<!DOCTYPE HTML> 
+ 
+<!-- Start HTML --> 
+<html> 
+ 
+<!-- Start Head --> 
+<head> 
+		
+	<title>Simple Slides 1.0 Demo</title>
+	
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/2.8.2r1/build/reset/reset-min.css" />
+	<link rel="stylesheet" type="text/css" href="css/simpleslides-1.0.css" />
+	
+	<!-- Jquery -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/simpleslides-1.0.js"></script>
+		
+	<!-- Start CSS -->
+	
+	<style type="text/css">
+	
+	html, body {
+		text-align: center;
+		font-family:sans-serif;
+		font-size:0.9em;
+	}
+
+	
+	#navigation {
+		margin:0 auto;
+		width:700px;
+		height:auto;
+	}
+	
+	#title {
+		margin:0 auto;
+		width:700px;
+		height:auto;
+		margin:20px auto;
+		font-size:1.2em;
+		
+	}
+	
+	.gallery {
+		margin:20px auto;
+		width:320px;
+		height:480px;
+	}
+	
+	</style>
+	
+		
+</head> 
+<!-- End Head --> 
+ 
+<!-- Start Body --> 
+<body>
+
+	<div id="title">
+		<a>Quick demo showing whats possible with Simple Slides.</a>
+	</div>
+
+
+	<div class="gallery">
+		<!-- First Image from your list will automatically appear here on runtime --> 
+	</div>
+
+	<ol> 
+		<!-- Image list --> 
+		<li class="galleryitem"><img src="images/1.jpg" alt="Photo 1"/></li>
+		<li class="galleryitem"><img src="images/2.jpg" alt="Photo 2"/></li>
+		<li class="galleryitem"><img src="images/3.jpg" alt="Photo 3"/></li>
+		<li class="galleryitem"><img src="images/4.jpg" alt="Photo 4"/></li>
+		<li class="galleryitem"><img src="images/5.jpg" alt="Photo 5"/></li>
+		<li class="galleryitem"><img src="images/6.jpg" alt="Photo 5"/></li>
+		<li class="galleryitem"><img src="images/7.jpg" alt="Photo 5"/></li>
+		<li class="galleryitem"><img src="images/8.jpg" alt="Photo 5"/></li>
+		<li class="galleryitem"><img src="images/9.jpg" alt="Photo 5"/></li>
+		<!-- End of Image list --> 
+	</ol> 
+
+	<div id="navigation">
+		<!-- Navigation buttons. Can be moved or styled in anyway but must retain thier class names --> 
+		<a class="backimg">&#171;Back</a>
+		<a class="nextimg">Next&#187;</a>
+	</div>
+	
+</body> 
+<!-- End Body --> 
+ 
+</html> 
+<!-- End HTML -->
