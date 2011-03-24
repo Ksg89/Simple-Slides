@@ -81,5 +81,7 @@ If you use this plugin we would like to ask you to give credit where its due - I
 Simple Slides was created by the [Co Snap](http://cosnap.co.uk/) team.
 
 Individuals
+
 Craig Rood [Website](http://craigrood.com/)
+
 Sam Stefan [Website](http://samsefan.co.uk/)

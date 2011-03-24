@@ -24,12 +24,13 @@
 		text-align: center;
 		font-family:sans-serif;
 		font-size:0.9em;
+		background: url(images/bg.jpg) repeat;
 	}
 
 	
 	#navigation {
 		margin:0 auto;
-		width:700px;
+		width:324px;
 		height:auto;
 	}
 	
@@ -43,10 +44,31 @@
 	}
 	
 	.gallery {
-		margin:20px auto;
-		width:320px;
+   		border: 1px solid rgb(73,84,92);
+		padding: 1px;
+   		background: rgb(38,47,53);
+   		margin-left: auto;
+   		margin-right: auto;
+   		margin: 20px auto 20px auto;
+   		width:320px;
 		height:480px;
 	}
+	
+	.nextimg {
+		float: right;
+		background:url(images/buttons.png) no-repeat;
+	}
+	.nextimg:active {
+		background:url(images/buttons.png) no-repeat 0 -33px;
+	}
+	.backimg {
+		float: left;
+		background:url(images/buttons.png) no-repeat -76px 0;
+	}
+	.backimg:active {
+		background:url(images/buttons.png) no-repeat -76px -33px;
+	}
+	
 	
 	</style>
 	
@@ -56,11 +78,6 @@
  
 <!-- Start Body --> 
 <body>
-
-	<div id="title">
-		<a>Quick demo showing whats possible with Simple Slides.</a>
-	</div>
-
 
 	<div class="gallery">
 		<!-- First Image from your list will automatically appear here on runtime --> 
@@ -82,8 +99,8 @@
 
 	<div id="navigation">
 		<!-- Navigation buttons. Can be moved or styled in anyway but must retain thier class names --> 
-		<a class="backimg">&#171;Back</a>
-		<a class="nextimg">Next&#187;</a>
+		<a class="nextimg"></a>
+		<a class="backimg"></a>
 	</div>
 	
 </body> 
