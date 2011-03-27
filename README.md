@@ -1,5 +1,7 @@
 # Simple Slides v1.0
 
+[Demo](http://ksg89.github.com/Simple-Slides/)
+
 ## What is Simple Slides
 
 Simple Slides is a simple jQuery plugin that generates a slideshow 
