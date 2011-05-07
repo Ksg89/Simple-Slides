@@ -1,4 +1,4 @@
-# Simple Slides v1.0
+# Simple Slides v1.1
 
 [Demo](http://ksg89.github.com/Simple-Slides/)
 
@@ -16,6 +16,10 @@ Simple Slides works best with a group of images /or/ panes that are all the size
 
 First off as this is a jQuery plugin, jQuery must already be installed onto your page.
 jQuery version *1.0* or *above* is currently required.
+
+### Updates
+
+1.1 - Clicking gallery image now advances the slides.
 
 ### Adding files
 
