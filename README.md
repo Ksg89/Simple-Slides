@@ -8,19 +8,19 @@ Simple Slides is a simple jQuery plugin that generates a slideshow
 
 Simple Slides works best with a group of images /or/ panes that are all the size size
 
-## How to use
-
-'Installing' this plugin is very simple
-
 ## Updates
 
 ### 1.1
 
-+ Clicking gallery image now advances the slides.
+Clicking the gallery image now advances the slides.
 
 ### 1.0
 
 Initial Release.
+
+## How to use
+
+'Installing' this plugin is very simple
 
 ### Requirements
 
