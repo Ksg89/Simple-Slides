@@ -1,0 +1,32 @@
+	.gallery {
+   		position: relative;
+	}
+	
+	.thisframe {
+		position:absolute;
+		left:0px;
+		top:0px;
+		z-index:2;
+		padding: 1px;
+	}
+	
+	.nextframe {
+		position:absolute;
+		left:0px;
+		top:0px;
+		z-index:1;
+		padding: 1px;
+	}
+	
+	.galleryitem {
+		display: none;
+	}
+	
+	.nextimg, .backimg {
+		clear:none;
+		width: 76px;
+		height: 33px;
+		background:rgb(239,239,239);
+		color:rgb(104,104,104);
+		cursor:pointer;
+	}
