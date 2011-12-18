@@ -1,4 +1,4 @@
-# Simple Slides v1.1
+# Simple Slides v1.2
 
 [Demo](http://ksg89.github.com/Simple-Slides/)
 
@@ -10,13 +10,18 @@ Simple Slides works best with a group of images /or/ panes that are all the size
 
 ## Updates
 
+### 1.2
+
+* 'Faster' JS code. Should look smoother too.
+* Fixed the demo and README for 1.1+
+
 ### 1.1
 
-Clicking the gallery image now advances the slides.
+* Clicking the gallery image now advances the slides.
 
 ### 1.0
 
-Initial Release.
+* Initial Release.
 
 ## How to use
 
@@ -29,15 +34,15 @@ jQuery version *1.0* or *above* is currently required.
 
 ### Adding files
 
-The files js/simpleslides-1.0.js and css/simpleslides-1.0.css need to be added to the relative folders within the web pages folders.
+The files js/simpleslides-1.2.js and css/simpleslides-1.2.css need to be added to the relative folders within the web pages folders.
 
 ### Include Files
 
 The files will need to be included into the HTML file to work.
 Just add:-
 
-`<script type="text/javascript" src="js/simpleslides-1.0.js"></script>`
-`<link rel="stylesheet" type="text/css" href="css/simpleslides-1.0.css" />`
+`<script type="text/javascript" src="js/simpleslides-1.2.js"></script>`
+`<link rel="stylesheet" type="text/css" href="css/simpleslides-1.2.css" />`
 
 to the HTML head section.
 

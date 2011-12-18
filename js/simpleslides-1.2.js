@@ -1,4 +1,4 @@
-//Simple Slides 1.0
+//Simple Slides 1.2
 
 //Project Page: https://github.com/Ksg89/Simple-Slides
 
@@ -42,11 +42,10 @@ $(document).ready(function() {
 	});
 	
 	function backimg() {
-	 	$("div.gallery").html("");
-		
-   	 	$("div.gallery").append('<div class="thisframe">');
-   	 	$("div.thisframe").append(images[currimage]);
-   	 	$("div.gallery").append('</div>');
+	 	
+		$newhtml = '<div class="thisframe">';
+		$newhtml = $newhtml + images[currimage];
+		$newhtml = $newhtml + '</div>';
 
   		if (currimage == 0){
    	 		currimage = (images.length-1);
@@ -54,19 +53,20 @@ $(document).ready(function() {
    	 		currimage = currimage -1;
    	 	}
 
-		$("div.gallery").append('<div class="nextframe">');
-		$("div.nextframe").append(images[currimage]);
-   	 	$("div.gallery").append('</div>');
+		$newhtml = $newhtml + '<div class="nextframe">';
+		$newhtml = $newhtml + images[currimage];
+		$newhtml = $newhtml + '</div>';
+		
+		$("div.gallery").html($newhtml);
 		
    	 	$("div.thisframe").fadeOut(200);
 	}
 	
 	function nextimg() {
-		$("div.gallery").html("");
-   	   	
-   	   	$("div.gallery").append('<div class="thisframe">');
-   	 	$("div.thisframe").append(images[currimage]);
-   	 	$("div.gallery").append('</div>');
+		
+		$newhtml = '<div class="thisframe">';
+		$newhtml = $newhtml + images[currimage];
+		$newhtml = $newhtml + '</div>';
 
    	 	if (currimage == (images.length -1 )){
    	 		currimage = 0;
@@ -74,10 +74,12 @@ $(document).ready(function() {
    	 		currimage = currimage +1;
    	 	}
    	 
-   	 	$("div.gallery").append('<div class="nextframe">');
-   	 	$("div.nextframe").append(images[currimage]);
-   	 	$("div.gallery").append('</div>');
-   	 	
+		$newhtml = $newhtml + '<div class="nextframe">';
+		$newhtml = $newhtml + images[currimage];
+		$newhtml = $newhtml + '</div>';
+		
+		$("div.gallery").html($newhtml);
+		
    	 	$("div.thisframe").fadeOut(200);
 	}
 });
